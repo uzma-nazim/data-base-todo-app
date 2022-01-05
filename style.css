@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #9CECFB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.contaier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 30px;
+    flex-direction: column;
+}
+.main{
+    width: 70%;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #cee8fb;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.btn{
+    background-color: #3581d7;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+    display: flex;
+    align-items: center;
+
+}
+.btn:hover{
+
+    cursor: pointer;
+}
+h1{
+    color: #0052D4;
+    font-size: 60px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+::placeholder{
+    color: black;
+    font-size: 20px;
+    padding: 8px;
+}
+.textinput{
+
+    padding: 13px;
+    width: 80%;
+    border: 4px solid #3581d7;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+    font-size: 20px;
+    color: #000;
+
+
+}
+.textinput:focus{
+    outline: none;
+}
+.btn1{
+    
+    background: transparent;
+    margin: 10px;
+    border: none;
+
+}
+
+.fa-plus{
+
+    font-size: 130%;
+}
+.fa-plus:hover{
+    cursor: pointer;
+
+}
+.fa-trash-alt{
+    cursor: pointer;
+
+}
+.fa-trash-alt{
+    font-size: 20px;
+    color: #000;
+}
+
+.btn2{
+
+    background: transparent;
+    margin: 10px;
+    border: none;
+
+    
+
+}
+.not-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    
+}
+
+
+#Second-main{
+
+
+    list-style: none;
+    width: 60%;
+
+}
+#ulinput{
+
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color:		#F5F5F5;
+    margin: 10px;
+
+}
+.delbtn{
+    padding: 4px;
+    background-color: #cee8fb;
+    margin: 2px;
+    border: none;
+    border-radius: 20px;
+}
+.delbtn:hover{
+    cursor: pointer;
+}
+.editbtn{
+    padding: 5px;
+    background-color: #cee8fb;
+    border: none;
+    border-radius: 20px;
+}
+.editbtn:hover{
+    cursor: pointer;
+}
+.fa-edit{
+    color: #0052D4;
+    font-weight: 600;
+    font-size: 17px;
+}
+.fa-times{
+    padding: 2px;
+    font-size: 17px;
+    color: #0052D4;
+    border: none;
+}
+.fa-check{
+    font-size: 17px;
+    padding: 4px;
+    color: #0052D4;
+
+}
+#delete:hover{
+    cursor: pointer;
+}
+#delete{
+    
+    margin: 2px;
+    border: none;
+    background-color: #cee8fb;
+    border-radius: 20px;
+}
+.done{
+    color: 	#707070   ;
+    text-decoration: line-through;
+    opacity: 0.9;
+    transition: 0.5s;
+  
+}
+#li2{
+
+    font-size: 20px;
+    padding: 8px;
+
+}
+@media only screen and (max-width:700px){
+
+
+    .main{
+        width: 90%;
+    }
+    #Second-main{
+
+        width: 80%;
+
+}
+
+}
+@media only screen and (max-width:450px){
+
+
+    .main{
+        width: 100%;
+        padding: 10px;
+    }
+    #Second-main{
+
+        width: 80%;
+
+}
+.textinput{
+    width: 100%;
+    padding: 6px;
+}
+}

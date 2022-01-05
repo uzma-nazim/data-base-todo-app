@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toAPp</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+  
+</head>
+
+<body>
+    <h1>To do</h1>
+    <div class="contaier">
+        <div class="main">
+
+            <input class="textinput" id="myinput" type="text" placeholder="Enter Text">
+            <div class="btn">
+                <button class="btn1" onclick="additems()"><i class="fas fa-plus"></i></button>
+                <button class="btn2" onclick="deleteAll(this)"><i class="fas fa-trash-alt"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="not-main" id="animation">
+
+        <ul id="Second-main">
+
+
+
+
+        </ul>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
